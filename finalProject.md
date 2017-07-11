@@ -1,19 +1,26 @@
 ## Final Project Ideas
 # Real time job fair application
 
-- audience
-  - students
+- Audience
+  - Students (job fair)
 
 - UI pages:
   - Admin login (recruiter fname, lname, date, location)
+  - Student Portal (enter name, e-mail, phone#, major, GPA, University, graduation date, position(s) interested in)
   - About Liberty ("Home" page)
   - Positions/Programs Available
-  - Student Portal (enter name, e-mail, phone#, major, GPA, University, graduation date, position(s) interested in)
   - Developers: practice exercise pass/fail ?  code completion, multiple choice "quiz", other?
-  - Logout (next student to register)
+  - Logout/Done/Submit (next student to register)
 
 - Backend:
-  - store students' info
-  - store pass/fail/score ?
-
-(Spring routes, database (postgres), security (recruiter's username/password), some way to implement a "test" for student developers to solve - similar to how NewLine presented the prework exercises)
+  - DB (Postgres)
+    - Store admin login
+    - Store students' info
+    - Store pass/fail/score ?
+  - Student "quiz" (similar to how Newline presented prework exercises)
+    - Create quiz(zes)
+    - Pick quiz at random
+    - Validate student "quiz"
+  - Security
+    - Admin login
+  - Spring Routes to complement front-end
